@@ -1,0 +1,178 @@
+export const testimonials = [
+  {
+    id: 1,
+    quote: "I was looking for a trainer in the Gulf Shores/Pensacola area for the summer while I was visiting and an old teammate of mine suggested Coach Munoz. So glad I reached out — incredible experience from start to finish.",
+    name: "Hallie Klanke",
+    initials: "HK",
+    date: "Jul 06, 2023",
+  },
+  {
+    id: 2,
+    quote: "Our son worked with Coach Michael to improve his foot skills and overall skills over the summer. Coach was great to work with and flexible with scheduling. Highly recommend!",
+    name: "Denise Narramore",
+    initials: "DN",
+    date: "Oct 28, 2022",
+  },
+  {
+    id: 3,
+    quote: "Extremely knowledgeable and patient. Our son really enjoys learning from him. He integrates higher skilled kids which help him improve and motivate.",
+    name: "RichardandJackie Joyce",
+    initials: "RJ",
+    date: "Aug 01, 2022",
+  },
+  {
+    id: 4,
+    quote: "Excellent Coach!! Good tactics, Good techniques! I can see my son improving when he is with him! Thanks!!",
+    name: "Symbia W. Díaz Chico",
+    initials: "SW",
+    date: "Mar 30, 2022",
+  },
+  {
+    id: 5,
+    quote: "This was our daughter\'s first time playing competitive soccer. She is athletic but she did not know the fundamentals of the game. We started doing individual training sessions and the progress has been incredible.",
+    name: "Chris Shawna Johnson",
+    initials: "CS",
+    date: "Mar 17, 2022",
+  },
+  {
+    id: 6,
+    quote: "Coach Munoz is a great coach!! His training gives us great results!! The child trains with pleasure and each time takes something new for himself.",
+    name: "Liubovi Mihaluta",
+    initials: "LM",
+    date: "Mar 03, 2022",
+  },
+  {
+    id: 7,
+    quote: "These practices and training sessions are great for those who want to take their Soccer skills to the next level. Coach Edison Munoz along with Stephen are amazing coaches.",
+    name: "Alex Aguirre",
+    initials: "AA",
+    date: "Feb 14, 2022",
+  },
+  {
+    id: 8,
+    quote: "The 3coachmunoz team is the most dedicated, talented, knowledgeable, and passionate group in the soccer space and beyond. Truly world class. I have worked with them personally and professionally.",
+    name: "Fabian Berru",
+    initials: "FB",
+    date: "Feb 13, 2022",
+  },
+  {
+    id: 9,
+    quote: "I would recommend them because of the experience, passion and professionalism in the practices. Furthermore, Coach Edison, Stephen and Michael like the development and love for the game.",
+    name: "Sayda Gamboa",
+    initials: "SG",
+    date: "Feb 12, 2022",
+  },
+  {
+    id: 10,
+    quote: "El coach Muñoz es un excelente coach que tiene la vision perfecta en la cual va a desarrollar aquello en el jugador que esta teniendo dificultad y que necesita mejorar.",
+    name: "Oscar Rodriguez Sanjurjo",
+    initials: "OR",
+    date: "Feb 12, 2022",
+  },
+  {
+    id: 11,
+    quote: "One of the best technical trainers in the area. Only coach around that makes you do every drill right and left.",
+    name: "Harry Ellis III",
+    initials: "HE",
+    date: "Feb 10, 2022",
+  },
+  {
+    id: 12,
+    quote: "Lleve a unos familiares y amigos a las prácticas y me sorprendió positivamente de principio a fin. Es un excelente trabajo, muy profesional y con un alto nivel de conocimiento.",
+    name: "Maria Dolly Aguirre",
+    initials: "MD",
+    date: "Feb 08, 2022",
+  },
+  {
+    id: 13,
+    quote: "It works specifically on the stimulation of the abilities and skills of boys and girls. The development of technical virtues day by day makes each individual a better player.",
+    name: "Edison Munoz Mercado",
+    initials: "EM",
+    date: "Feb 08, 2022",
+  },
+  {
+    id: 14,
+    quote: "Great knowledge of sports, specially soccer.",
+    name: "Cesar Romero",
+    initials: "CR",
+    date: "May 08, 2020",
+  },
+];
+
+export const stats = [
+  { value: "500+", label: "Players Trained" },
+  { value: "6+", label: "Years Coaching" },
+  { value: "5.0", label: "Avg Rating" },
+  { value: "14", label: "5-Star Reviews" },
+];
+
+export const services = [
+  {
+    id: "match-focus",
+    icon: "ri-search-eye-line",
+    title: "Match Focus Plan",
+    tagline: "Online \u00b7 $80 USD",
+    price: "$80",
+    description:
+      "Single match analysis focused on tactical, technical, decision-making, and positional insight. Includes a comprehensive PDF report delivered via email.",
+    features: [
+      "In-possession and out-of-possession analysis",
+      "Position profile: role, traits, physical and technical aspects",
+      "Full match breakdown with minute-by-minute analysis",
+      "Clips and annotations highlighting key coaching points",
+      "Diagrams for better understanding of tactical concepts",
+    ],
+    image: "https://assets.cdn.filesafe.space/oJ5frEp0oe5qkawU9xTd/media/677d6c86fb9954527262a70d.jpeg",
+  },
+  {
+    id: "match-breakdown",
+    icon: "ri-movie-2-line",
+    title: "Match Breakdown Plan",
+    tagline: "Online \u00b7 $100 USD",
+    price: "$100",
+    description:
+      "Single match analysis with a deeper dive into feedback and coaching points. Includes a 45-minute video call to review match details and answer questions.",
+    features: [
+      "45-minute video call to review match details and coaching points",
+      "Comprehensive PDF report delivered via email",
+      "In-possession and out-of-possession analysis",
+      "Full match breakdown with minute-by-minute analysis",
+      "Clips and annotations highlighting key coaching points",
+    ],
+    image: "https://assets.cdn.filesafe.space/oJ5frEp0oe5qkawU9xTd/media/677d6ab044e04aaa1c0a405a.jpeg",
+  },
+  {
+    id: "consistent-growth",
+    icon: "ri-line-chart-line",
+    title: "Consistent Growth Plan",
+    tagline: "Online \u00b7 $180 USD",
+    price: "$180",
+    description:
+      "Two matches analyzed per month, building on insights from each match. Includes two 45-minute video calls to provide feedback and track progress.",
+    features: [
+      "Two matches analyzed per month",
+      "Two 45-minute video calls to review coaching points",
+      "In-possession and out-of-possession analysis",
+      "Full match breakdown with minute-by-minute analysis",
+      "Diagrams for better understanding of tactical concepts",
+    ],
+    image: "https://assets.cdn.filesafe.space/oJ5frEp0oe5qkawU9xTd/media/677d6af9aa77f64ae439b80b.jpeg",
+  },
+  {
+    id: "elite-performance",
+    icon: "ri-award-line",
+    title: "Elite Performance Plan",
+    tagline: "Online \u00b7 $250 USD",
+    price: "$250",
+    description:
+      "Three matches analyzed per month for players committed to maximizing their development. Includes three 45-minute video calls building on progress from each match.",
+    features: [
+      "Three matches analyzed per month",
+      "Three 45-minute video calls, building on each session",
+      "In-possession and out-of-possession analysis",
+      "Full match breakdown with minute-by-minute analysis",
+      "Comprehensive PDF reports for all matches",
+    ],
+    image: "https://assets.cdn.filesafe.space/oJ5frEp0oe5qkawU9xTd/media/677469402ec4ebe45b5fb26e.jpeg",
+  },
+];
